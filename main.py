@@ -21,7 +21,7 @@ while True:
 
     # Draw rectangles around detected faces
     for (x, y, w, h) in faces:
-        cv2.circle(frame, ((x+int(w/2)), (y+int(h/3.5))), 10, (255, 0, 0), 2)
+        cv2.circle(frame, ((x+int(w/2)), (y+int(h/3.5))), 10, (255, 255, 0), 5)
 
     # Display the resulting frame
     cv2.imshow('Face Detection', frame)
